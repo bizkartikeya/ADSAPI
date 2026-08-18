@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AdsSqlApi.Api/AdsSqlApi.Api.csproj" />
+    <Project Path="src/AdsSqlApi.Application/AdsSqlApi.Application.csproj" />
+    <Project Path="src/AdsSqlApi.Domain/AdsSqlApi.Domain.csproj" />
+    <Project Path="src/AdsSqlApi.Infrastructure/AdsSqlApi.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AdsSqlApi.Tests/AdsSqlApi.Tests.csproj" />
+  </Folder>
+</Solution>

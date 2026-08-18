@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+    <RootNamespace>AdsSqlApi.Tests</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\AdsSqlApi.Api\AdsSqlApi.Api.csproj" />
+    <ProjectReference Include="..\..\src\AdsSqlApi.Application\AdsSqlApi.Application.csproj" />
+    <ProjectReference Include="..\..\src\AdsSqlApi.Infrastructure\AdsSqlApi.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\AdsSqlApi.Domain\AdsSqlApi.Domain.csproj" />
+  </ItemGroup>
+</Project>

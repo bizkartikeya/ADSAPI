@@ -1,0 +1,200 @@
+# ==========================================
+# .NET / Visual Studio
+# ==========================================
+
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio cache/options
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains Rider / ReSharper
+.idea/
+*.sln.iml
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# ==========================================
+# .NET Generated Files
+# ==========================================
+
+*.dll
+*.exe
+*.pdb
+*.cache
+*.nupkg
+*.snupkg
+
+# NuGet
+packages/
+*.nuget.props
+*.nuget.targets
+.nuget/
+
+# Test results
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Code coverage
+coverage/
+coverage.xml
+*.opencover.xml
+*.cobertura.xml
+
+# ==========================================
+# ASP.NET Core
+# ==========================================
+
+# ASP.NET Core local secrets
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.Local.json
+
+# User secrets
+secrets.json
+
+# ASP.NET Core generated files
+wwwroot/dist/
+wwwroot/node_modules/
+
+# Logs
+logs/
+*.log
+
+# ==========================================
+# Environment / Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# Certificates / Keys
+*.pfx
+*.p12
+*.pem
+*.key
+*.crt
+*.cer
+
+# Local database files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# Entity Framework Core
+# ==========================================
+
+# EF generated migration build artifacts
+Migrations/*.dll
+Migrations/*.pdb
+
+# ==========================================
+# Docker
+# ==========================================
+
+# Docker override files containing local settings
+docker-compose.override.yml
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ==========================================
+# Temporary Files
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# ==========================================
+# Publish Output
+# ==========================================
+
+publish/
+[Pp]ublish/
+*.publishsettings
+
+# ==========================================
+# Azure / Deployment
+# ==========================================
+
+# Azure publish profiles
+Properties/PublishProfiles/
+
+# Azure Functions local settings
+local.settings.json
+
+# ==========================================
+# Generated Documentation / Tools
+# ==========================================
+
+Generated/
+generated/
+
+# ==========================================
+# Node.js (if frontend is inside the solution)
+# ==========================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Frontend build
+dist/
+build/
+
+# ==========================================
+# Swagger / OpenAPI generated files
+# ==========================================
+
+swagger.json
+openapi.json
+
+# ==========================================
+# Local tooling
+# ==========================================
+
+*.orig
+*.rej
+
+# ==========================================
+# Keep example configuration files
+# ==========================================
+
+!appsettings.json
+!appsettings.Production.json
+!.env.example
